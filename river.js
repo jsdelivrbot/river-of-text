@@ -74,7 +74,7 @@ function jsAnimate(){
     for(var i = 0; i < children.length; i ++){
       children[i].style.left = parseInt(children[i].style.left.slice(0, -2)) + 1 + 'px';
 
-      if(parseInt(children[i].style.left.slice(0, -2)) > 1500){
+      if(parseInt(children[i].style.left.slice(0, -2)) > 850 || children.length > 25){
          riverContainer.removeChild(children[i]);
      }
     }
