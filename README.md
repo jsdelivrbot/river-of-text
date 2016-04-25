@@ -8,7 +8,7 @@ How to use:
 - you may have to set a z-index on the container to make sure you don't overlap other elements  
 - inspect the code if you want to know/change the styling that gets set on the container.
 -know that this works by appending p tags to your page  
- 
+
 2.  src the script (WIP)  
 
 3. call the function createRiver() like so:  
@@ -16,4 +16,8 @@ How to use:
 createRiver(minFontSize, maxFontSize, userColor, containerWidth, containerHeight, codeStrings)
 ```  
 - the arguments represent minimum font, max font, text color, width of the animate container, the height of the animate container, and an array of values to display as text.  
-- If you don't provide args, or the right kind of arg, it will default to some other values. If you include arugments, enter something for all 6 of them!  
+- If you don't provide args, or the right kind of arg, it will default to some other values. If you include arguments, enter something for all 6 of them!  
+
+### Fun Fact  
+
+This is nothing but vanilla javascript. I am not entirely sure if this is a good thing or a bad thing. 

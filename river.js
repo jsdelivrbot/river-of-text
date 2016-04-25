@@ -17,13 +17,13 @@ var createRiver = function(minFontSize, maxFontSize, userColor, containerWidth, 
 
 if(typeof minFontSize !== 'number' || typeof maxFontSize !== 'number'){
 minFontSize = 10;
-maxFontSize = 30;
+maxFontSize = 25;
 console.log('sorry, your font input was not a number. I set it for you.');
 }
 
 if(typeof containerWidth || typeof containerHeight !== 'number'){
- containerWidth = 800;
- containerHeight = 400;
+ containerWidth = 700;
+ containerHeight = 300;
  console.log('sorry, your container input was not a number. I set it for you.')
 }
 
