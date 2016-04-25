@@ -9,15 +9,22 @@ How to use:
 - inspect the code if you want to know/change the styling that gets set on the container.
 -know that this works by appending p tags to your page  
 
-2.  src the script (WIP)  
+2.  src the script like dis:  
+``` js
+
+<script src="https://cdn.rawgit.com/abraxasrex/river-of-text/master/river.js"></script>
+
+```  
 
 3. call the function createRiver() like so:  
 ``` js
+
 createRiver(minFontSize, maxFontSize, userColor, containerWidth, containerHeight, codeStrings)
+
 ```  
 - the arguments represent minimum font, max font, text color, width of the animate container, the height of the animate container, and an array of values to display as text.  
 - If you don't provide args, or the right kind of arg, it will default to some other values. If you include arguments, enter something for all 6 of them!  
 
 ### Fun Fact  
 
-This is nothing but vanilla javascript. I am not entirely sure if this is a good thing or a bad thing. 
+This is nothing but vanilla javascript. I am not entirely sure if this is a good thing or a bad thing.
