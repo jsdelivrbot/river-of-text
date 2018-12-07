@@ -12,7 +12,7 @@ How to use:
 2.  src the script like dis:  
 ``` js
 
-<script src="https://cdn.rawgit.com/abraxasrex/river-of-text/master/river.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/abraxasrex/river-of-text/river.js"></script>
 
 ```  
 
